@@ -1,4 +1,5 @@
 main(){
+  //Los maps son diccionarios / Objetos literales
   Map<String, Object> map = {
     'nombre': 'Pedro Gutierrez',
     'edad': 22,
@@ -14,4 +15,8 @@ main(){
 
   print(map);
   print(map2);
+
+  //Se utiliza [clave], para acceder a los valores de nuestro map
+  print(map['nombre']);
+  print(map2['nombre']);
 }
